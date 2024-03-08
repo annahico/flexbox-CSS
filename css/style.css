@@ -25,6 +25,7 @@ body {
     width: 10em;
     background-color: darkred;
     display: flex;
+    flex-direction: row;
     justify-content: right;
 }
 
@@ -33,16 +34,17 @@ body {
     width: 10em;
     background-color: darkred;
     display: flex;
-    align-items:flex-end;
+    flex-direction: row;
+    align-items: flex-end;
+    
 }
 
 .led {
     height: 10em;
     width: 10em;
     background-color: darkred;
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
-
-
-
